@@ -1,55 +1,41 @@
-# Jinhyeong Jang
+# 장진형 | 백엔드 개발자
 
-Backend and full-stack developer focused on real services, measurable performance improvements, and practical AI tools.
+Java와 Spring Boot로 서비스를 만들고 운영합니다. 사용자의 불편을 기능으로 풀고, 로그와 테스트로 동작을 확인합니다. AI를 활용한 업무 자동화 도구도 개발하고 있습니다.
 
-> 수치와 지표로 시스템의 가치를 증명하는 개발자입니다.
+[포트폴리오](https://rocky-limburger-416.notion.site/Jang-Hyeong-27407c0007d3821a8f420155ea7fcd7e?pvs=143) / [블로그](https://coldmans.tistory.com/) / [알고리즘](https://solved.ac/profile/jinhinjala26) / [이메일](mailto:jangboss02@gmail.com)
 
-- Portfolio: https://rocky-limburger-416.notion.site/Jang-Hyeong-27407c0007d3821a8f420155ea7fcd7e?pvs=143
-- Blog: https://coldmans.tistory.com/
-- Solved.ac: https://solved.ac/profile/jinhinjala26
-- Email: jangboss02@gmail.com
+## 이력
 
-## Focus
+| 기간 | 내용 |
+| --- | --- |
+| 2026.04 ~ 현재 | AI·SW마에스트로 17기 연수 중, 소셜 루틴 앱 백엔드 개발 |
+| 2026.03 ~ 2026.07 | 카카오 AI 앰배서더 KANANA 429, MCP와 AI 활용 서비스 개발 |
+| 2025.08 ~ 2025.11 | 겜구(GAMEGOO), 백엔드 개발 계약직 |
+| 2021.03 ~ 2027.02 예정 | 인천대학교 임베디드시스템공학과, 컴퓨터공학부 부전공 |
 
-| Area | What I build |
-|---|---|
-| Backend | Spring Boot APIs, JPA data modeling, PostgreSQL/MySQL, REST contracts, performance tuning |
-| Full-stack service | React/Vite/Next.js frontends connected to real backend APIs |
-| AI tools | LLM API integrations, MCP servers, agent workflows, multimodal demos |
-| Operations | Docker, GitHub Actions, k6 load testing, README-first documentation |
+## 주요 프로젝트
 
-## Representative Projects
+| 프로젝트 | 맡은 일 |
+| --- | --- |
+| [습관 형성을 돕는 소셜 루틴 앱](https://github.com/TripleS-soma/rougether-server) | 백엔드와 인프라 개발. 루틴 완료 보상, 알림 배치, AI 가구 생성의 비동기 처리 |
+| [대학 수강신청 준비용 시간표 서비스](https://github.com/coldmans/inu_timetable) | 1인 기획, 개발, 운영. 과목 검색과 시간표 자동 조합, 강의 데이터 갱신, 부하 테스트 기반 성능 개선 |
+| [창업팀의 게임 파트너 매칭 서비스](https://github.com/Gamegoo-repo/gamegoo-server-v2) | Spring Boot 백엔드 개발. 추천 목록에 차단 관계와 친구 요청 상태를 반영하고 API 설계와 코드 리뷰에 참여 |
+| [자연어 지시 기반 웹 테스트 자동화 도구](https://github.com/capston2025/capston) | 브라우저 실행 흐름, 실패 복구, 화면 증거를 바탕으로 한 완료 판정 개발 |
+| [대출 서류 페이지 분류 도구](https://github.com/coldmans/mk-lending-document-classifier) | 규칙과 AI 비전으로 섞인 PDF를 분류하고 문서별로 재구성. 불확실한 결과는 사람 검토로 분리 |
+| [막차 시간 검색 MCP](https://github.com/coldmans/LastGuardianMCP) | Google Routes API와 이분 탐색으로 막차 출발 시간을 추정하는 MCP 서버 개발 |
 
-| Project | What it shows |
-|---|---|
-| [INU Timetable](https://github.com/coldmans/inu_timetable) | Spring Boot timetable service with Gemini-assisted PDF parsing, PostgreSQL, k6 performance tuning, and real student usage |
-| [INU Timetable Front](https://github.com/coldmans/inu_timetable_front) | React/Vite timetable UI with course search, wishlist, generated combinations, timetable visualization, and export flows |
-| [codex-diary](https://github.com/coldmans/codex_diary) | Local macOS app and CLI that turns Codex Chronicle summaries into daily work reports and diary-style reflections |
-| [LastGuardianMCP](https://github.com/coldmans/LastGuardianMCP) | MCP server that estimates late-night transit last-departure times using Google Routes API and binary search |
-| [K-Context Guide](https://github.com/coldmans/K-Context-Guide) | Korean-context multimodal demo with Spring Boot, Next.js, WAV recording, and an OpenAI-compatible Kanana API flow |
-| [GAIA Capstone](https://github.com/capston2025/capston) | Agentic browser QA platform that turns product specs into executable test flows and evidence-based reports |
+그 밖에 [AI 작업 기록을 일기로 정리하는 macOS 앱](https://github.com/coldmans/codex_diary)을 만들었습니다.
 
-## Interview Topics I Can Explain
+## 기술
 
-- How I improved INU Timetable API performance from multi-second failures to stable sub-second responses under k6 load.
-- How JPA entity design, fetch strategy, pagination, indexing, and connection pool settings affected real API behavior.
-- How to connect React UI state, backend REST APIs, authentication, wishlist state, and timetable conflict logic.
-- How MCP tools expose real-world APIs to LLM clients, including cost and reliability tradeoffs.
-- How AI demos should handle fallback paths, privacy boundaries, and inspectable outputs instead of only model calls.
+- **백엔드:** Java, Spring Boot, JPA, MySQL, PostgreSQL, Redis
+- **AI와 자동화:** Python, LLM API, MCP, Playwright
+- **배포와 검증:** AWS, GCP Cloud Run, Docker, GitHub Actions, JUnit, k6
 
-## Tech Stack
+## 수상과 자격
 
-```text
-Backend: Java, Spring Boot, JPA, PostgreSQL, MySQL, Redis, FastAPI, Python
-Frontend: React, Vite, Next.js, TypeScript, JavaScript, Tailwind CSS
-AI/Automation: OpenAI-compatible APIs, Gemini API, MCP, Playwright, Codex CLI
-Infra/Testing: Docker, GitHub Actions, k6, JUnit 5, MockMvc, Swagger/OpenAPI
-```
-
-## Stats
-
-[![Tokscale Stats](https://tokscale.ai/api/embed/coldmans/svg?template=terminal&color=purple&graph=1)](https://tokscale.ai/u/coldmans)
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jinhinjala26)](https://solved.ac/jinhinjala26/)
-[![Jinhyeong's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=coldmans&show_icons=true&theme=radical)](https://github.com/coldmans)
-[![Jinhyeong's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=coldmans&theme=radical)](https://github.com/coldmans)
+- **2026.08** 초광역 지역문제 해결형 AI 해커톤 장려상
+- **2026.06** 인천대학교 졸업작품 발표대회 장려상
+- **2026.02** GenAI 공공데이터 리빙랩 아이디어 경진대회 우수상
+- **2025.10** 전자정부 표준프레임워크 컨트리뷰션 감사장, 2025 INU 코드페스티벌 알고리즘 대회 동상
+- **자격:** 정보처리기사(2026.09), SQLD(2025.04)
